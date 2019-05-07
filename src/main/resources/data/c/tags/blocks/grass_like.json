@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:dead_bush",
+        "minecraft:fern",
+        "minecraft:grass",
+        "minecraft:kelp",
+        "minecraft:kelp_plant",
+        "minecraft:large_fern",
+        "minecraft:lilac",
+        "minecraft:peony",
+        "minecraft:rose_bush",
+        "minecraft:seagrass",
+        "minecraft:tall_grass"
+    ]
+}

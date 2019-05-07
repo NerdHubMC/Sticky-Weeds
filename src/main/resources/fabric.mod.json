@@ -1,0 +1,34 @@
+{
+    "schemaVersion": 1,
+    "id": "sticky_weeds",
+    "name": "Sticky Weeds",
+    "description": "walking through tall grass is hard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "UpcraftLP",
+            "contact": {
+                "homepage": "https://twitter.com/UpcraftLP"
+            }
+        }
+    ],
+    "side": "universal",
+    "version": "${version}",
+    "depends": {
+        "fabric": "*"
+    },
+    "suggests": {
+        "sweed": "*"
+    },
+    "entrypoints": {
+        "main": [
+            "nerdhub.stickyweeds.StickyWeeds"
+        ]
+    },
+    "mixins": [
+        {
+            "environment": "*",
+            "config": "mixins.sticky_weeds.common.json"
+        }
+    ]
+}
